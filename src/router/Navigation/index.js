@@ -67,21 +67,6 @@ const AppTabNavigator = createBottomTabNavigator(
   },
 );
 
-// export default createAppContainer(
-//   createSwitchNavigator(
-//     {
-//       App: AppTabNavigator,
-//     //   Home: HomeStack,
-//     //   Actor: ActorStack,
-//       // Detail: DetailStack,
-//     },
-//     {
-//       // headerMode: 'none',
-//       initialRouteName: 'App',
-//     },
-//   ),
-// );
-
 const Navigation = createSwitchNavigator(
   {
     App: AppTabNavigator,
